@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 400;
     line-height: 1.4;
     color:#f3f3f3;
@@ -64,8 +64,7 @@ select,
 textarea {
   margin: 0;
   font-family: 'Poppins', sans-serif;;
-  font-size:16px;
-  line-height: 1.4;
+  font-size:17px;
   font-weight:400;
 }
 
@@ -92,7 +91,7 @@ button {
 
 .header {
   padding: 6px;
-  margin-bottom: 12px;
+  margin: 20px;
   color:#f3f3f3;
 }
 
@@ -132,7 +131,7 @@ form {
 .input-text {
   display: block;
   width: 100%;
-  height:36px;
+  height:38px;
   padding:6px 6px;
   color: #495057;
   background-color: #fff;
@@ -157,9 +156,10 @@ form {
 .input-radio,
 .input-checkbox {
   display: inline-block;
-  margin-right: 15px;
-  min-height: 15px;
-  min-width: 15px;
+  margin-right: 10px;
+  min-height: 20px;
+  min-width: 20px;
+  margin:5px;
 }
 
 .input-textarea {
