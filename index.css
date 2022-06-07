@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
+    font-size: 18px;
     font-weight: 400;
     line-height: 1.4;
     color:#f3f3f3;
@@ -40,7 +40,6 @@ h1 {
   }
   
 p {
-    font-size: 1.125rem;
     color:#f3f3f3;
     font-weight: 400;
 }
@@ -48,14 +47,13 @@ p {
 h1,
 p {
     margin-top: 0;
-    margin-bottom: 0.5rem;
+    margin-bottom: 9px;
 }
   
 label {
     display: flex;
     align-items: center;
-    font-size: 1.125rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 5px;
     color:#f3f3f3;
     font-weight:400;
 }
@@ -66,7 +64,7 @@ select,
 textarea {
   margin: 0;
   font-family: 'Poppins', sans-serif;;
-  font-size:1rem;
+  font-size:16px;
   line-height: 1.4;
   font-weight:400;
 }
@@ -77,7 +75,7 @@ button {
 
 .bg-container {
   width: 100%;
-  margin: 3.125rem auto 0 auto;
+  margin: 36px auto 0 auto;
 }
 
 @media (min-width: 576px) {
@@ -93,8 +91,8 @@ button {
 }
 
 .header {
-  padding: 0 0.625rem;
-  margin-bottom: 1.875rem;
+  padding: 6px;
+  margin-bottom: 12px;
   color:#f3f3f3;
 }
 
@@ -105,8 +103,8 @@ button {
 }
 
 .clue {
-  margin-left: 0.25rem;
-  font-size: 0.8rem;
+  margin-left: 4px;
+  font-size: 14px;
   color: #e4e4e4;
 }
 
@@ -116,26 +114,26 @@ button {
 
 form {
   background: rgba(27, 27, 50, 0.8);
-  padding: 2.5rem 0.625rem;
-  border-radius: 0.25rem;
+  padding: 5px 5px;
+  border-radius: 2.5px;
 }
 
 @media (min-width: 480px) {
   form {
-    padding: 2.5rem;
+    padding: 35px;
   }
 }
 
 .input-container {
-  margin: 0 auto 1.25rem auto;
-  padding: 0.25rem;
+  margin: 0 auto 25px auto;
+  padding: 5px;
 }
 
 .input-text {
   display: block;
   width: 100%;
-  height: 2.375rem;
-  padding: 0.375rem 0.75rem;
+  height:36px;
+  padding:6px 6px;
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;
@@ -153,28 +151,28 @@ form {
 .input-text:focus {
   border-color: #80bdff;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
 }
 
 .input-radio,
 .input-checkbox {
   display: inline-block;
-  margin-right: 0.625rem;
-  min-height: 1.25rem;
-  min-width: 1.25rem;
+  margin-right: 15px;
+  min-height: 15px;
+  min-width: 15px;
 }
 
 .input-textarea {
   min-height: 120px;
   width: 100%;
-  padding: 0.625rem;
+  padding: 10px;
   resize: vertical;
 }
 
 .submit-button {
   display: block;
   width: 100%;
-  padding: 0.75rem;
+  padding: 10px;
   background-color:#37af65;
   color: #f3f3f3;
   border-radius: 2px;
